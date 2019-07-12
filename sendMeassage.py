@@ -2,7 +2,7 @@ import requests     #요청을 하기 위한 모듈
 import pprint
 from decouple import config #decouple에서부터 config 호출
 
-
+#send massege logic
 base_url = 'https://api.telegram.org'
 
 token = config('API_TOKEN') 
